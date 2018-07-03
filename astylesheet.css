@@ -19,7 +19,7 @@ body{background-color: lilac;}
 .tab {
     overflow: hidden;
     border: 1px solid white;
-    background-color: white;
+    background-color: lilac;
 }
 
 /* Style the buttons inside the tab */
