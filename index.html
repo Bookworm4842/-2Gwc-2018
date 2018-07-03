@@ -1,1 +1,75 @@
-<h1>Hello<h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="astylesheet.css">
+    <script src="thisisthat.js"></script>
+    <meta charset="utf-8">
+    <title>Reading info</title>
+
+<script>
+var images = new Array()
+images[0] = "yetanotherboyreging.gif";
+images[1] = "girlreading.gif";
+images[2] = "lolanotherboyreading.gif";
+setTimeout("changeImage()", 30000);
+var x=0;
+
+function changeImage()
+{
+document.getElementById("img").src=images[x]
+x++;
+}
+</script>
+
+  </head>
+  <body>
+
+    <h1>Reading</h1>
+    <img src="lolanotherboyreading.gif">
+</p>
+
+    <!-- FOR YOUR TABS FROM W3 SCHOOLS -->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">What is reading?</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Why is reading important?</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">How can YOU make sure that kids have the opportunity to learn how to read?</button>
+      <button class="tablinks" onclick="openCity(event, 'Why?')">Where should I go to get ebooks or audiobooks online?</button>
+      <button class="tablinks" onclick="openCity(event, 'Me?')">What is the website for my local library?</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <h3>What is reading?</h3>
+      <p>  Some people may think that reading is just looking at the words on the pages of a book. Reading is actually much more than that. It is imagining how the characters that are created by the author live and learning their story throughout the book. Reading should let you immerse yourself in other worlds that may (or may not) be similar to our own.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <h3>Why is reading important?</h3>
+      <p>  Reading helps kids to develop a good imagination and a sense of creativity. Some kids can take up drawing in order to illustrate how some characters in a book look to them. It lets kids experience perspectives outside of their viewpoint and experience a new outlook on our world or the characters’.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <h3>How can YOU make sure that kids have the opportunity to learn how to read?</h3>
+      <p>  If you have any used books that you don’t need anymore you can give them to your local library or give them a donation so they can buy new ones. Books can last for years inside of the library system, so many children will be able to use them.</p>
+    </div>
+
+    <div id="Why?" class="tabcontent">
+      <h3>Where should I go to get ebooks or audiobooks online?</h3>
+      <p>
+         <a href=https://www.overdrive.com/>overdrive.com</a>
+      </p>
+      <a href=https://www.audible.com/>audible.com</a>
+    </div>
+
+    <div id="Me?" class="tabcontent" >
+      <h3>What is the website for my local library?</h3>
+      <a href=https://www.gwinnettpl.org/>gwinnett county public library website</a>
+      <p>
+        <a href=http://afpls.org/>atlanta-fulton public library system website</a>
+      </p>
+      <p>
+        <a href=https://www.fultonpubliclibrary.org/>fulton county public library website</a>
+      </p>
+    </div>
+
+<!-- THE END OF YOUR TABS FROM W3 SCHOOLS -->
+
